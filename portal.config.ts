@@ -5,10 +5,10 @@
 import { defineConfig } from './src/config';
 
 export default defineConfig({
-  id: "kalibo",
+  id: "makato",
   kind: "municipality",
-  name: "Municipality of Kalibo",
-  shortName: "Kalibo",
+  name: "Municipality of Makato",
+  shortName: "Makato",
   operator: {
     name: "MOVERS Ph"
   },
@@ -16,13 +16,13 @@ export default defineConfig({
     offices: [],
     places: [
       {
-        label: "Kalibo",
-        q: "Kalibo Aklan",
+        label: "Makato",
+        q: "Makato Aklan",
         region: "VI"
       }
     ],
     districts: [
-      "leg:aklan:1st"
+      "leg:aklan:2nd"
     ],
     exclude: []
   },
